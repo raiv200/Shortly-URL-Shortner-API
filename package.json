@@ -1,0 +1,20 @@
+{
+  "name": "url_shortner",
+  "version": "1.0.0",
+  "description": "URL Shortner Service",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "node --watch index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "geoip-lite": "^1.4.10",
+    "mongoose": "^9.0.1",
+    "nanoid": "^5.1.6",
+    "qrcode": "^1.5.4",
+    "useragent": "^2.3.0"
+  }
+}
